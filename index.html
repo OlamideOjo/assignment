@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .container .box{
+            max-width: 500px;
+        }
+    </style>
+
+
+<!-- beginning of assignment 1 -->   
+    <p id="demo1">Hello</p>
+    
+    <p id="demo2">Coding</p>
+<!-- end of assignment 1 -->
+
+<!-- beginning of assignment 2 -->
+    <p id="increase">Audrey</p>
+
+    <button onclick="myFunction()">Increase font-size</button>
+<!-- end of assignment 2 -->
+
+<!-- beginning of assignment 3 -->
+    <table>
+        <tr>
+            <th id="S/N"></th>
+            <th id="Name"></th>
+            <th id="Email"></th>
+        </tr>
+        <tr>
+            <td id="1"></td>
+            <td id="first"></td>
+            <td id="mail1"></td>
+        </tr>
+        <tr>
+            <td id="2"></td>
+            <td id="second"></td>
+            <td id="mail2"></td>
+        </tr>
+        <tr>
+            <td id="3"></td>
+            <td id="third"></td>
+            <td id="mail3"></td>
+        </tr>
+    </table>
+<!-- end of assignment 3 -->
+
+<!-- beginning of classwork -->
+    <h2>JavaScript</h2>
+    <p id="demo">HTML elements.</p>
+
+
+    <p id="change">We are going out today</p>
+
+    <h3 id="bgcolor">Hello today is a great day</h3>
+<!-- end of classwork -->
+
+
+<h3 id="success"></h3>
+<form action="">
+    <label for="">Full Name</label><br>
+    <input type="text" id="fname" value=""><br>
+    <p id="fnameerror"></p>
+    <label for="">Email</label><br>
+    <input type="text" id="email" value=""><br>
+    <p id="emailerror"></p>
+    <a onclick="submit()">submit</a>
+</form>
+
+
+<!-- beginning of new assignment -->
+<!-- assignemnt 1 starts here -->
+<p id="demoo">Java</p>
+<button id="changeTextBtn" onclick="changeText()">Change Text</button><br>
+
+
+<!-- assignemnt 2 starts here -->
+<div id="colorDiv">Hello World</div>
+<button id="changeColorBtn" onclick="changeBgColor()">Change Background</button>
+
+<!-- assignemnt 3 starts here -->
+<h3 id="formsuccess"></h3>
+<form action="">
+    <!-- <label for="">Phone Number</label><br> -->
+    <input type="tel" name="" id="phone">
+    <p><span id="errorSpan"></span></p>
+    <button type="button" onclick="submitForm()">Submit</button>
+</form>
+
+<img src="" alt="" id="mainImage" height="450" width="400px">
+
+<img src="images/bulbon.jpg" height="200" width="150" onclick="displayImage(this.src)" alt="">
+<img src="images/bulboff.png" height="200" width="150" onclick="displayImage(this.src)" alt="">
+<img src="images/bulbon.jpg" height="200" width="150" onclick="displayImage(this.src)" alt="">
+<img src="images/bulboff.png" height="200" width="150" onclick="displayImage(this.src)" alt="">
+
+<div id="toggleDiv" style="margin-top: 50px; font-size: 24px; margin-bottom: 15px;">Hello, welcome to my page</div>
+<button id="toogleBtn" onclick="toggleDiv()">Toggle Div</button>
+<button onclick="showDiv()">Show Div</button>
+
+<section class="container">
+    <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <a href="#" type="button" id="showMore" onclick="show()">show more</a>
+            <span id="less">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</span>
+        </p>
+    </div>
+    <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+    <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+</section>
+
+    <script src="js/script.js"></script>    
+</body>
+</html>
